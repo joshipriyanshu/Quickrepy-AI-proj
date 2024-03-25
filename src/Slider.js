@@ -5,7 +5,6 @@ import { Tooltip } from 'react-tooltip'
 import React from 'react'
 
 
-
 const Slider = () => {
  
     const [value, setValue] = useState(50);

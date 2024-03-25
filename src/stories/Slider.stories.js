@@ -1,3 +1,4 @@
+
 import Slider from "../Slider";
 
 export default {
@@ -6,4 +7,6 @@ export default {
 
 }
 
-export const slider = ( ) => <Slider label= "slide me " ></Slider>
+
+
+export const Slider = ( ) => <Slider label= "slide me "  backgroundColor = "green "></Slider>

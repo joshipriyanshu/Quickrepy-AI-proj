@@ -1,6 +1,7 @@
 import React from 'react'
 import "./app.css"
 import Slider from "./Slider";
+import Twothumbslider from './Twothumbslider';
 
 
 
@@ -8,7 +9,12 @@ import Slider from "./Slider";
 
 function App() {
  return (
-  <Slider />
+  <>
+      <Slider />
+      <Twothumbslider />
+
+  </>
+  
  )
 }
 
